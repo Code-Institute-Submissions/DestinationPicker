@@ -13,7 +13,12 @@ body {
     min-height: 100%;
 }
 
-/*--------------------------------------------------Answering buttons*/
+/*--------------------------------------------------Main*/
+
+.main {
+    color: #ffffff;
+    text-align: center;
+}
 
 .answer-btns .btn {
     color: #ffffff;
