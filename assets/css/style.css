@@ -7,5 +7,6 @@ body {
 /*--------------------------------------------------Answering buttons*/
 
 .answer-btns .btn {
+    color: #ffffff;
     margin: 5px 0px 5px 0px;
 }
