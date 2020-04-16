@@ -1,7 +1,16 @@
+/*--------------------------------------------------HTML*/
+
+html {
+    height: 100%;
+}
+
 /*--------------------------------------------------Body*/
 
 body {
     background-color: #42CAFD;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 /*--------------------------------------------------Answering buttons*/
@@ -9,4 +18,14 @@ body {
 .answer-btns .btn {
     color: #ffffff;
     margin: 5px 0px 5px 0px;
+}
+
+/*--------------------------------------------------Footer*/
+/* Used the following youtube-video to get my footer to the bottom of the page: https://www.youtube.com/watch?v=yc2olxLgKLk */
+
+footer {
+    margin-top: auto;
+    background: #6457A6;
+    color: #F0AD4E;
+    text-align: center;
 }
