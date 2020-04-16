@@ -3,3 +3,9 @@
 body {
     background-color: #42CAFD;
 }
+
+/*--------------------------------------------------Answering buttons*/
+
+.answer-btns .btn {
+    margin: 5px 0px 5px 0px;
+}
