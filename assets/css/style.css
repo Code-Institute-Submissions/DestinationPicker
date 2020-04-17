@@ -35,15 +35,17 @@ header {
 .main {
     color: #ffffff;
     text-align: center;
+    margin-top: auto;
 }
 
 .question {
-    margin: 4rem 0 4rem 0;
+    margin: 0rem 0 4rem 0;
 }
 
 .answer-btns .btn {
     color: #ffffff;
-    margin: 5px 0px 5px 0px;
+    margin: 0 0 1rem 0;
+    width: 90%;
 }
 
 /*--------------------------------------------------Footer*/
