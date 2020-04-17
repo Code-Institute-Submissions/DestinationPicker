@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:100,200,300,400,500,600,700');
+
 /*--------------------------------------------------HTML*/
 
 html {
@@ -7,6 +9,7 @@ html {
 /*--------------------------------------------------Body*/
 
 body {
+    font-family: "Comfortaa", sans-serif;
     background-color: #42CAFD;
     display: flex;
     flex-direction: column;
