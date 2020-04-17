@@ -37,6 +37,10 @@ header {
     text-align: center;
 }
 
+.question {
+    margin: 4rem 0 4rem 0;
+}
+
 .answer-btns .btn {
     color: #ffffff;
     margin: 5px 0px 5px 0px;
