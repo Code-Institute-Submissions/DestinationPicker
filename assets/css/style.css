@@ -39,7 +39,7 @@ header {
 }
 
 .question {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     margin: 0rem 0 4rem 0;
 }
 
@@ -53,6 +53,9 @@ header {
 /* Used the following youtube-video to get my footer to the bottom of the page: https://www.youtube.com/watch?v=yc2olxLgKLk */
 
 footer {
+    height: 1.4rem;
+    line-height: 1.4rem;
+    font-size: 0.9rem;
     margin-top: auto;
     background: #5C2751;
     color: #F0AD4E;
