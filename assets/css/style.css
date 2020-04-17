@@ -19,10 +19,15 @@ body {
 /*--------------------------------------------------Header*/
 
 header {
+    height: 3rem;
+    line-height: 3rem;
     background: #5C2751;
     color: #F0AD4E;
     text-align: center;
     text-transform: uppercase;
+    font-size: 1.4em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
 }
 
 /*--------------------------------------------------Main*/
