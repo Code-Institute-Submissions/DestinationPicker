@@ -30,7 +30,7 @@ header {
     letter-spacing: 0.1em;
 }
 
-/*--------------------------------------------------Main*/
+/*--------------------------------------------------Main Questions*/
 
 .main {
     color: #ffffff;
@@ -51,10 +51,13 @@ header {
     margin: 0rem 0 4rem 0;
 }
 
-.answer-btns .btn {
+.btn {
     color: #ffffff;
-    margin: 0 0 1rem 0;
     width: 90%;
+}
+
+.answer-btns .btn {
+    margin: 0 0 1rem 0;
 }
 
 /*--------------------------------------------------Footer*/

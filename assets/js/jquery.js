@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+    $(".start-btn").click(function() {
+        window.location.href = "questions.html";
+    });
+
     $(".btn").hover(
         function() {
             $(this).css({"border" : "#5C2751", "background-color" : "#5C2751"});
