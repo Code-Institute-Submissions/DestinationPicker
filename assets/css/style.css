@@ -38,6 +38,34 @@ header {
     margin-top: auto;
 }
 
+/*--------------------------------------------------Main Index*/
+
+.index > h1 {
+    font-weight: 500;
+    margin: 0 0 1rem 0;
+}
+
+.index > h2 {
+    margin: 0 0 4rem 0;
+}
+
+.index > h3 {
+    margin: 0 0 4rem 0;
+}
+
+.btn {
+    color: #ffffff;
+    width: 90%;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #5C2751;
+    border: #5C2751;
+}
+
+/*--------------------------------------------------Main Questions*/
+
 .question1 {
     display: block;
 }
@@ -51,19 +79,8 @@ header {
     margin: 0rem 0 4rem 0;
 }
 
-.btn {
-    color: #ffffff;
-    width: 90%;
-}
-
 .answer-btns .btn {
     margin: 0 0 1rem 0;
-}
-
-.btn:hover {
-    color: #ffffff;
-    background-color: #5C2751;
-    border: #5C2751;
 }
 
 /*--------------------------------------------------Footer*/
