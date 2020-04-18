@@ -38,6 +38,14 @@ header {
     margin-top: auto;
 }
 
+.question1 {
+    display: block;
+}
+
+.question2 {
+    display: none;
+}
+
 .question {
     font-size: 1.2rem;
     margin: 0rem 0 4rem 0;
