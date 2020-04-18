@@ -5,14 +5,6 @@ $(document).ready(function() {
         window.location.href = "questions.html";
     });
 
-    $(".btn").hover(
-        function() {
-            $(this).removeClass("btn-warning").addClass("hover-btn");
-        }, function() {
-            $(this).removeClass("hover-btn").addClass("btn-warning");
-        }
-    );
-
     $(".btnsQ1>.btn").click(function() {
         $(".question1").css("display", "none");
         $(".question2").css("display", "block");
