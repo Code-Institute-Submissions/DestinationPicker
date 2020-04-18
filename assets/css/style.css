@@ -35,27 +35,32 @@ header {
 .main {
     color: #ffffff;
     text-align: center;
+    width: 95%;
     margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*--------------------------------------------------Main Index*/
 
 .index > h1 {
+    font-size: 2.5rem;
     font-weight: 500;
-    margin: 0 0 1rem 0;
+    margin: 0 0 3rem 0;
 }
 
 .index > h2 {
-    margin: 0 0 4rem 0;
-}
-
-.index > h3 {
-    margin: 0 0 4rem 0;
+    font-size: 1.5rem;
 }
 
 .btn {
     color: #ffffff;
     width: 90%;
+}
+
+.start-btn {
+    margin: 2rem 0 0 0;
+    font-size: 1.3rem;
 }
 
 .btn:hover {
