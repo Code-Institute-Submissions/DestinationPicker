@@ -6,9 +6,9 @@ $(document).ready(function() {
 
     $(".btn").hover(
         function() {
-            $(this).css({"border" : "#5C2751", "background-color" : "#5C2751"});
+            $(this).removeClass("btn-warning").addClass("hover-btn");
         }, function() {
-            $(this).css({"border" : "#F0AD4E", "background-color" : "#F0AD4E"});
+            $(this).removeClass("hover-btn").addClass("btn-warning");
         }
     );
 

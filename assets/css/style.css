@@ -60,6 +60,12 @@ header {
     margin: 0 0 1rem 0;
 }
 
+.hover-btn {
+    color: #ffffff !important;
+    background-color: #5C2751;
+    border: #5C2751;
+}
+
 /*--------------------------------------------------Footer*/
 /* Used the following youtube-video to get my footer to the bottom of the page: https://www.youtube.com/watch?v=yc2olxLgKLk */
 
