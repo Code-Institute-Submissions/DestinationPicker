@@ -35,9 +35,4 @@ $(document).ready(function() {
         $(".question7").css("display", "block");
     });
 
-    $(".btnsQ7>.btn").click(function() {
-        $(".question7").css("display", "none");
-        $(".question8").css("display", "block");
-    });
-
 });
