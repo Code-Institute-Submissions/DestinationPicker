@@ -25,9 +25,9 @@ header {
     color: #F0AD4E;
     text-align: center;
     text-transform: uppercase;
-    font-size: 1.4em;
+    font-size: 1.5rem;
     font-weight: 700;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.1rem;
 }
 
 /*--------------------------------------------------Main*/
@@ -98,8 +98,8 @@ header {
 /* Used the following youtube-video to get my footer to the bottom of the page: https://www.youtube.com/watch?v=yc2olxLgKLk */
 
 footer {
-    height: 1.4rem;
-    line-height: 1.4rem;
+    height: 1.8rem;
+    line-height: 1.8rem;
     font-size: 0.9rem;
     margin-top: auto;
     background: #5C2751;
