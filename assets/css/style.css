@@ -79,12 +79,13 @@ header {
     display: none;
 }
 
-.question {
-    font-size: 1.2rem;
-    margin: 0rem 0 4rem 0;
+.question > h1 {
+    font-size: 2rem;
+    margin: 0 0 4rem 0;
 }
 
 .answer-btns .btn {
+    font-size: 1.1rem;
     margin: 0 0 1rem 0;
 }
 
