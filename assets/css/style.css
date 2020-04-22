@@ -101,7 +101,7 @@ p {
 
 /*--------------------------------------------------Main Results*/
 
-.iceland, .italy, .finland, .madagascar, .namibia {
+.belgium, .iceland, .italy, .finland, .madagascar {
     display: none;
 }
 
@@ -110,14 +110,18 @@ p {
 }
 
 .results * h2 {
-    margin: 0 0 2.2rem 0;
+    margin: 0 0 1.3rem 0;
+}
+
+img {
+    max-height: 15.5rem;
 }
 
 ul {
     font-size: 1.05rem;
     list-style: none;
     padding: 0;
-    margin: 1.5rem 0 0 0;
+    margin: 1.3rem 0 0 0;
 }
 
 /*--------------------------------------------------Footer*/
