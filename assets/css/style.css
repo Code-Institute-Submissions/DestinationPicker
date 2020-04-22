@@ -92,8 +92,18 @@ header {
 
 /*--------------------------------------------------Main Results*/
 
-.belgium, .iceland, .italy, .finland, .madagascar, .namibia {
+.iceland, .italy, .finland, .madagascar, .namibia {
     display: none;
+}
+
+.results > h1 {
+    font-size: 2.1rem;
+    font-weight: 500;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
 }
 
 /*--------------------------------------------------Footer*/
