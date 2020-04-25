@@ -6,149 +6,23 @@ var madagascar = {score: 0, costs: "€1500-2500", surrounding: "Nature", season
 var namibia = {score: 0, costs: "€2500-3500", surrounding: "Nature", season: "Autumn", traveltime: "Long", weather: "Hot", transport: "Plane", culture: "A lot"};
 
 // Used .text() to get the text from the clicked button as suggested by ThiefMaster on the following page: https://stackoverflow.com/questions/10351658/javascript-get-custom-buttons-text-value 
-$(".question1").find(".btn").click(function() {
-    if($(this).text() == belgium.costs) {
+$(".btn").click(function() {
+    if($(this).text() == belgium.costs || $(this).text() == belgium.surrounding) {
         belgium.score ++;
     }
-    if($(this).text() == iceland.costs) {
+    if($(this).text() == iceland.costs || $(this).text() == iceland.surrounding) {
         iceland.score ++;
     }
-    if($(this).text() == italy.costs) {
+    if($(this).text() == italy.costs || $(this).text() == italy.surrounding) {
         italy.score ++;
     }
-    if($(this).text() == finland.costs) {
+    if($(this).text() == finland.costs || $(this).text() == finland.surrounding) {
         finland.score ++;
     }
-    if($(this).text() == madagascar.costs) {
+    if($(this).text() == madagascar.costs || $(this).text() == madagascar.surrounding) {
         madagascar.score ++;
     }
-    if($(this).text() == namibia.costs) {
-        namibia.score ++;
-    }
-});
-
-$(".question2").find(".btn").click(function() {
-    if($(this).text() == belgium.costs) {
-        belgium.score ++;
-    }
-    if($(this).text() == iceland.costs) {
-        iceland.score ++;
-    }
-    if($(this).text() == italy.costs) {
-        italy.score ++;
-    }
-    if($(this).text() == finland.costs) {
-        finland.score ++;
-    }
-    if($(this).text() == madagascar.costs) {
-        madagascar.score ++;
-    }
-    if($(this).text() == namibia.costs) {
-        namibia.score ++;
-    }
-});
-
-$(".question3").find(".btn").click(function() {
-    if($(this).text() == belgium.costs) {
-        belgium.score ++;
-    }
-    if($(this).text() == iceland.costs) {
-        iceland.score ++;
-    }
-    if($(this).text() == italy.costs) {
-        italy.score ++;
-    }
-    if($(this).text() == finland.costs) {
-        finland.score ++;
-    }
-    if($(this).text() == madagascar.costs) {
-        madagascar.score ++;
-    }
-    if($(this).text() == namibia.costs) {
-        namibia.score ++;
-    }
-});
-
-$(".question4").find(".btn").click(function() {
-    if($(this).text() == belgium.costs) {
-        belgium.score ++;
-    }
-    if($(this).text() == iceland.costs) {
-        iceland.score ++;
-    }
-    if($(this).text() == italy.costs) {
-        italy.score ++;
-    }
-    if($(this).text() == finland.costs) {
-        finland.score ++;
-    }
-    if($(this).text() == madagascar.costs) {
-        madagascar.score ++;
-    }
-    if($(this).text() == namibia.costs) {
-        namibia.score ++;
-    }
-});
-
-$(".question5").find(".btn").click(function() {
-    if($(this).text() == belgium.costs) {
-        belgium.score ++;
-    }
-    if($(this).text() == iceland.costs) {
-        iceland.score ++;
-    }
-    if($(this).text() == italy.costs) {
-        italy.score ++;
-    }
-    if($(this).text() == finland.costs) {
-        finland.score ++;
-    }
-    if($(this).text() == madagascar.costs) {
-        madagascar.score ++;
-    }
-    if($(this).text() == namibia.costs) {
-        namibia.score ++;
-    }
-});
-
-$(".question6").find(".btn").click(function() {
-    if($(this).text() == belgium.costs) {
-        belgium.score ++;
-    }
-    if($(this).text() == iceland.costs) {
-        iceland.score ++;
-    }
-    if($(this).text() == italy.costs) {
-        italy.score ++;
-    }
-    if($(this).text() == finland.costs) {
-        finland.score ++;
-    }
-    if($(this).text() == madagascar.costs) {
-        madagascar.score ++;
-    }
-    if($(this).text() == namibia.costs) {
-        namibia.score ++;
-    }
-});
-
-$(".question7").find(".btn").click(function() {
-    if($(this).text() == belgium.costs) {
-        belgium.score ++;
-    }
-    if($(this).text() == iceland.costs) {
-        iceland.score ++;
-    }
-    if($(this).text() == italy.costs) {
-        italy.score ++;
-    }
-    if($(this).text() == finland.costs) {
-        finland.score ++;
-    }
-    if($(this).text() == madagascar.costs) {
-        madagascar.score ++;
-    }
-    if($(this).text() == namibia.costs) {
+    if($(this).text() == namibia.costs || $(this).text() == namibia.surrounding) {
         namibia.score ++;
     }
 });
