@@ -27,6 +27,10 @@ $(".btn").click(function() {
     }
 });
 
+$(".question7").click(function() {
+        window.location.href = "results/belgium.html";
+    });
+
 $(this).click(function() {
     console.log(belgium.score, iceland.score, italy.score, finland.score, madagascar.score, namibia.score)
 });
