@@ -35,4 +35,9 @@ $(document).ready(function() {
         $(".question7").css("display", "block");
     });
 
+    // Used the reactions on the following link for the window.location.href: https://stackoverflow.com/questions/16959476/how-to-go-to-a-url-using-jquery
+    $(".question7").find(".btn").click(function() {
+        window.location.href = "results.html";
+    });
+
 });
