@@ -31,7 +31,23 @@ $(".question7").click(function() {
     if(belgium.score>iceland.score && belgium.score>italy.score && belgium.score>finland.score && belgium.score>madagascar.score && belgium.score>namibia.score) {
         window.location.href = "results/belgium.html";
     } else {
-        window.location.href = "results/iceland.html";
+        if(iceland.score>italy.score && iceland.score>finland.score && iceland.score>madagascar.score && iceland.score>namibia.score) {
+            window.location.href = "results/iceland.html";
+        } else {
+            if(italy.score>finland.score && italy.score>madagascar.score && italy.score>namibia.score) {
+                window.location.href = "results/italy.html";
+            } else {
+                if(finland.score>madagascar.score && finland.score>namibia.score) {
+                    window.location.href = "results/finland.html";
+                } else {
+                    if(madagascar.score>namibia.score) {
+                        window.location.href = "results/madagascar.html";
+                    } else {
+                        window.location.href = "results/namibia.html";
+                    }
+                }
+            }
+        }
     }
 });
 
