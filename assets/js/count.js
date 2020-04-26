@@ -28,8 +28,12 @@ $(".btn").click(function() {
 });
 
 $(".question7").click(function() {
+    if(belgium.score>iceland.score && belgium.score>italy.score && belgium.score>finland.score && belgium.score>madagascar.score && belgium.score>namibia.score) {
         window.location.href = "results/belgium.html";
-    });
+    } else {
+        window.location.href = "results/iceland.html";
+    }
+});
 
 $(this).click(function() {
     console.log(belgium.score, iceland.score, italy.score, finland.score, madagascar.score, namibia.score)
