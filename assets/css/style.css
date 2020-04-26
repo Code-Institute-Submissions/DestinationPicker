@@ -101,7 +101,11 @@ p {
 
 /*--------------------------------------------------Main Results*/
 
-.belgium, .iceland, .italy, .finland, .madagascar, .namibia {
+.belgium {
+    display: block;
+}
+
+.iceland, .italy, .finland, .madagascar, .namibia {
     display: none;
 }
 
