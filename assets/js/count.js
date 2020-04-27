@@ -1,4 +1,4 @@
-var belgium = {score: 0, costs: "€0-750", surrounding: "Combination", season: "Summer", traveltime: "Short", weather: "Normal", transport: "Car", culture: "No"};
+var belgium = {score: 0, attributes: ["€0-750", "Combination", "Summer", "Short", "Normal", "Car", "No"]};
 var iceland = {score: 0, costs: "€750-1500", surrounding: "Nature", season: "Summer", traveltime: "Short", weather: "Cold", transport: "Plane", culture: "A little"};
 var italy = {score: 0, costs: "€750-1500", surrounding: "Combination", season: "Summer", traveltime: "Long", weather: "Hot", transport: "Car", culture: "A little"};
 var finland = {score: 0, costs: "€750-1500", surrounding: "Nature", season: "Winter", traveltime: "Medium", weather: "Cold", transport: "Plane", culture: "A little"};
@@ -7,9 +7,12 @@ var namibia = {score: 0, costs: "€2500-3500", surrounding: "Nature", season: "
 
 // Used .text() to get the text from the clicked button as suggested by ThiefMaster on the following page: https://stackoverflow.com/questions/10351658/javascript-get-custom-buttons-text-value 
 $(".btn").click(function() {
-    if($(this).text() == belgium.costs || $(this).text() == belgium.surrounding || $(this).text() == belgium.season || $(this).text() == belgium.traveltime || $(this).text() == belgium.weather || $(this).text() == belgium.transport || $(this).text() == belgium.culture) {
-        belgium.score ++;
+    for (var i = 0; i < belgium.attributes.length; i++) {
+        if ($(this).text() == belgium.attributes[i]) {
+            belgium.score ++;
+        }
     }
+
     if($(this).text() == iceland.costs || $(this).text() == iceland.surrounding || $(this).text() == iceland.season || $(this).text() == iceland.traveltime || $(this).text() == iceland.weather || $(this).text() == iceland.transport || $(this).text() == iceland.culture) {
         iceland.score ++;
     }
