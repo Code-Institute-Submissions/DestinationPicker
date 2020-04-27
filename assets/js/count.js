@@ -8,34 +8,11 @@ var destinations = [belgium, iceland, italy, finland, madagascar, namibia];
 
 // Used .text() to get the text from the clicked button as suggested by ThiefMaster on the following page: https://stackoverflow.com/questions/10351658/javascript-get-custom-buttons-text-value 
 $(".btn").click(function() {
-    for (var i in belgium.attributes) {
-        if ($(this).text() == belgium.attributes[i]) {
-            belgium.score ++;
-        }
-    }
-    for (var i in iceland.attributes) {
-        if ($(this).text() == iceland.attributes[i]) {
-            iceland.score ++;
-        }
-    }
-    for (var i in italy.attributes) {
-        if ($(this).text() == italy.attributes[i]) {
-            italy.score ++;
-        }
-    }
-    for (var i in finland.attributes) {
-        if ($(this).text() == finland.attributes[i]) {
-            finland.score ++;
-        }
-    }
-    for (var i in madagascar.attributes) {
-        if ($(this).text() == madagascar.attributes[i]) {
-            madagascar.score ++;
-        }
-    }
-    for (var i in namibia.attributes) {
-        if ($(this).text() == namibia.attributes[i]) {
-            namibia.score ++;
+    for (var i in destinations) {
+        for (var j in destinations[i].attributes) {
+            if ($(this).text() == destinations[i].attributes[j]) {
+                destinations[i].score ++;
+            }
         }
     }
 });
