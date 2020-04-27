@@ -1,5 +1,5 @@
 var belgium = {score: 0, attributes: ["€0-750", "Combination", "Summer", "Short", "Normal", "Car", "No"]};
-var iceland = {score: 0, costs: "€750-1500", surrounding: "Nature", season: "Summer", traveltime: "Short", weather: "Cold", transport: "Plane", culture: "A little"};
+var iceland = {score: 0, attributes: ["€750-1500", "Nature", "Summer", "Short", "Cold", "Plane", "A little"]};
 var italy = {score: 0, costs: "€750-1500", surrounding: "Combination", season: "Summer", traveltime: "Long", weather: "Hot", transport: "Car", culture: "A little"};
 var finland = {score: 0, costs: "€750-1500", surrounding: "Nature", season: "Winter", traveltime: "Medium", weather: "Cold", transport: "Plane", culture: "A little"};
 var madagascar = {score: 0, costs: "€1500-2500", surrounding: "Nature", season: "Spring", traveltime: "Long", weather: "Hot", transport: "Plane", culture: "A lot"};
@@ -7,14 +7,15 @@ var namibia = {score: 0, costs: "€2500-3500", surrounding: "Nature", season: "
 
 // Used .text() to get the text from the clicked button as suggested by ThiefMaster on the following page: https://stackoverflow.com/questions/10351658/javascript-get-custom-buttons-text-value 
 $(".btn").click(function() {
-    for (var i = 0; i < belgium.attributes.length; i++) {
+    for (var i in belgium.attributes) {
         if ($(this).text() == belgium.attributes[i]) {
             belgium.score ++;
         }
     }
-
-    if($(this).text() == iceland.costs || $(this).text() == iceland.surrounding || $(this).text() == iceland.season || $(this).text() == iceland.traveltime || $(this).text() == iceland.weather || $(this).text() == iceland.transport || $(this).text() == iceland.culture) {
-        iceland.score ++;
+    for (var i in iceland.attributes) {
+        if ($(this).text() == iceland.attributes[i]) {
+            iceland.score ++;
+        }
     }
     if($(this).text() == italy.costs || $(this).text() == italy.surrounding || $(this).text() == italy.season || $(this).text() == italy.traveltime || $(this).text() == italy.weather || $(this).text() == italy.transport || $(this).text() == italy.culture) {
         italy.score ++;
