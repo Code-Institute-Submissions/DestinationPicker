@@ -41,6 +41,8 @@ $(".btn").click(function() {
 });
 
 $(".question7").click(function() {
+
+    // Got some help from my mentor to get the code to determin the right first choice destinations, because mine did not work when two countries got the same score
     var highestScore = 0;
     var firstChoice = null;
 
@@ -52,28 +54,6 @@ $(".question7").click(function() {
     }
 
     window.location.href = "results/" + firstChoice + ".html";
-
-    // if(belgium.score>iceland.score && belgium.score>italy.score && belgium.score>finland.score && belgium.score>madagascar.score && belgium.score>namibia.score) {
-    //     window.location.href = "results/belgium.html";
-    // } else {
-    //     if(iceland.score>italy.score && iceland.score>finland.score && iceland.score>madagascar.score && iceland.score>namibia.score) {
-    //         window.location.href = "results/iceland.html";
-    //     } else {
-    //         if(italy.score>finland.score && italy.score>madagascar.score && italy.score>namibia.score) {
-    //             window.location.href = "results/italy.html";
-    //         } else {
-    //             if(finland.score>madagascar.score && finland.score>namibia.score) {
-    //                 window.location.href = "results/finland.html";
-    //             } else {
-    //                 if(madagascar.score>namibia.score) {
-    //                     window.location.href = "results/madagascar.html";
-    //                 } else {
-    //                     window.location.href = "results/namibia.html";
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
 });
 
 $(this).click(function() {
