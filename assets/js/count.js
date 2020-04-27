@@ -17,7 +17,7 @@ $(".btn").click(function() {
     }
 });
 
-$(".question7").click(function() {
+$(".question7").find(".btn").click(function() {
 
     // Got some help from my mentor to get the code to determine one of the first choice destinations when there is a draw
     var highestScore = 0;
