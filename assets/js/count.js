@@ -19,7 +19,7 @@ $(".btn").click(function() {
 
 $(".question7").click(function() {
 
-    // Got some help from my mentor to get the code to determin the right first choice destinations, because mine did not work when two countries got the same score
+    // Got some help from my mentor to get the code to determine one of the first choice destinations when there is a draw
     var highestScore = 0;
     var firstChoice = null;
 
@@ -31,8 +31,4 @@ $(".question7").click(function() {
     }
 
     window.location.href = "results/" + firstChoice + ".html";
-});
-
-$(this).click(function() {
-    console.log(belgium.score, iceland.score, italy.score, finland.score, madagascar.score, namibia.score);
 });
