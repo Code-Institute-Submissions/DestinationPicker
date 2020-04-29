@@ -5,34 +5,9 @@ $(document).ready(function() {
         window.location.href = "questions.html";
     });
 
-    $(".question1").find(".btn").click(function() {
-        $(".question1").css("display", "none");
-        $(".question2").css("display", "block");
-    });
-
-    $(".question2").find(".btn").click(function() {
-        $(".question2").css("display", "none");
-        $(".question3").css("display", "block");
-    });
-
-    $(".question3").find(".btn").click(function() {
-        $(".question3").css("display", "none");
-        $(".question4").css("display", "block");
-    });
-
-    $(".question4").find(".btn").click(function() {
-        $(".question4").css("display", "none");
-        $(".question5").css("display", "block");
-    });
-
-    $(".question5").find(".btn").click(function() {
-        $(".question5").css("display", "none");
-        $(".question6").css("display", "block");
-    });
-
-    $(".question6").find(".btn").click(function() {
-        $(".question6").css("display", "none");
-        $(".question7").css("display", "block");
+    $(".questions").find(".btn").click(function() {
+        $(this).parent().parent().css("display", "none");
+        $(this).parent().parent().next().css("display", "block");
     });
 
 });
