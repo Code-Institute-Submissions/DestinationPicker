@@ -30,5 +30,5 @@ $(".question7").find(".btn").click(function() {
         }
     }
 
-    window.location.href = "results/" + firstChoice + ".html";
+    window.location.href = `results/${firstChoice}.html`;
 });
