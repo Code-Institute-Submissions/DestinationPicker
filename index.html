@@ -22,7 +22,7 @@
     </section>
 
     <footer>
-        © 2020 Copyright: Frances Vugts - <i class="far fa-envelope" data-toggle="modal" data-target="#myModal"></i>
+        © 2020 Copyright: Frances Vugts - <i type="button" class="far fa-envelope" data-toggle="modal" data-target="#myModal"></i>
 
         <div class="modal fade" id="myModal">
             <div class="modal-dialog">
@@ -31,10 +31,14 @@
                         <h3>A title for my modal</h3>
                     </div>
                     <div class="modal-body">
-                        <p>Some content</p>
+                        <form>
+                            <input type="text" id="name" name="name" value="Name" required><br>
+                            <input type="text" id="email" name="email" value="Email" required><br>
+                            <input type="text" id="message" name="message" value="Message" required>
+                        </form>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-warning" data-dismiss="modal">Submit</button>
                     </div>
                 </div>
             </div>
