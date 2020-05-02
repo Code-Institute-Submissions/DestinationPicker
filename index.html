@@ -31,15 +31,15 @@
         © 2020 Copyright: Frances Vugts - <i type="button" class="far fa-envelope" data-toggle="modal" data-target="#myModal"></i>
 
         <div class="modal fade" id="myModal">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-body">
                         <h3>Contact me</h3>
                         <form onsubmit="return sendMail(this);">
-                            <input type="text" id="name" name="name" placeholder="Name" required/><br>
-                            <input type="email" id="email" name="email" placeholder="Email" required/><br>
-                            <input type="text" id="message" name="message" placeholder="Message" required/>
-                            <input type="submit" class="btn btn-warning" value="Submit"/>
+                            <input type="text" id="name" name="name" placeholder=" Name" required/><br>
+                            <input type="email" id="email" name="email" placeholder=" Email" required/><br>
+                            <textarea rows="3" id="message" name="message" placeholder=" Message" required></textarea>
+                            <input type="submit" class="submit-btn btn btn-warning" value=" Submit"/>
                         </form>
                     </div>
                 </div>

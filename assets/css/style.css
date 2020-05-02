@@ -132,3 +132,20 @@ footer {
     color: #F0AD4E;
     text-align: center;
 }
+
+/*--------------------------------------------------Modal*/
+
+h3 {
+    color: #7d356e;
+}
+
+#name, #email, #message {
+    margin: 0.4rem;
+    width: 80%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    margin-top: 0.6rem;
+}
