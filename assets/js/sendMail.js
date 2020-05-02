@@ -5,5 +5,7 @@ function sendMail(contactForm) {
         "from_email": contactForm.email.value,
         "message": contactForm.message.value
     });
+    $("#myModal").modal("hide");
+    $("#name, #email, #message").val("");
     return false;
 }

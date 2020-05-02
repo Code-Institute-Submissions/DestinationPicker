@@ -33,20 +33,19 @@
         <div class="modal fade" id="myModal">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="modal-header">
-                        <h3>A title for my modal</h3>
-                    </div>
                     <div class="modal-body">
+                        <h3>Contact me</h3>
                         <form onsubmit="return sendMail(this);">
-                            <input type="text" id="name" name="name" /><br>
-                            <input type="text" id="email" name="email" /><br>
-                            <input type="text" id="message" name="message" />
-                            <input type="submit" class="btn btn-warning" value="Submit" />
+                            <input type="text" id="name" name="name" placeholder="Name" required/><br>
+                            <input type="email" id="email" name="email" placeholder="Email" required/><br>
+                            <input type="text" id="message" name="message" placeholder="Message" required/>
+                            <input type="submit" class="btn btn-warning" value="Submit"/>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
+
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
