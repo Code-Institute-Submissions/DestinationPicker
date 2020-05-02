@@ -1,4 +1,4 @@
-// Used the code institute lessons to create this function
+// Used the code institute lessons to create this function for mailing me
 function sendMail(contactForm) {
     emailjs.send("gmail", "destination_picker", {
         "from_name": contactForm.name.value,
