@@ -46,6 +46,10 @@ header {
     margin-top: auto;
 }
 
+.row {
+    margin: 2rem 0;
+}
+
 h1 {
     font-size: 2.0rem;
     font-weight: 500;
