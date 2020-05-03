@@ -7,5 +7,6 @@ function sendMail(contactForm) {
     });
     $("#myModal").modal("hide");
     $("#name, #email, #message").val("");
+    return alert('Thank you for your message!')
     return false;
 }

@@ -64,6 +64,16 @@ h2 {
     color: #7d356e;
 }
 
+h3 {
+    color: #7d356e;
+}
+
+@media (min-width:768px) {
+    h3 {
+        font-size: 2rem;
+    }
+}
+
 p {
     font-size: 1.5rem;
     color: #7d356e;
@@ -191,16 +201,6 @@ footer {
 }
 
 /*--------------------------------------------------Modal*/
-
-h3 {
-    color: #7d356e;
-}
-
-@media (min-width:768px) {
-    h3 {
-        font-size: 2rem;
-    }
-}
 
 #name, #email, #message {
     margin: 0.4rem;
