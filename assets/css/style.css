@@ -70,6 +70,12 @@ p {
     margin: 1.5rem 0.5rem;
 }
 
+@media (min-width:992px) {
+    p {
+        font-size: 1.7rem;
+    }
+}
+
 .main .far {
     color: #FFC107;
     display: none;
@@ -79,7 +85,7 @@ p {
     .main .far {
         display: block;
         font-size: 7rem;
-        margin-bottom: 3rem;
+        margin-bottom: 4rem;
     }
 }
 
@@ -112,7 +118,13 @@ p {
 
 @media (min-width:768px) {
     .start-btn {
-        margin-top: 3rem;
+        margin-top: 4rem;
+    }
+}
+
+@media (min-width:992px) {
+    .start-btn {
+        margin-top: 2rem;
     }
 }
 
@@ -184,13 +196,26 @@ h3 {
     color: #7d356e;
 }
 
+@media (min-width:768px) {
+    h3 {
+        font-size: 2rem;
+    }
+}
+
 #name, #email, #message {
     margin: 0.4rem;
-    width: 80%;
+    width: 90%;
     border: 1px solid lightgray;
     border-radius: 5px;
 }
 
 .submit-btn {
     margin-top: 0.6rem;
+}
+
+@media (min-width:768px) {
+    .submit-btn {
+        height: 2.5rem;
+        font-size: 1.3rem;
+    }
 }
