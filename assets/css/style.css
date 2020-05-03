@@ -60,17 +60,17 @@ h1 {
     }
 }
 
-h2, h4 {
-    color: #7d356e;
+h4 {
+    color: #222E50;
 }
 
-.main .far {
-    color: #FFC107;
+.main .far, .fas {
+    color: #222E50;
     display: none;
 }
 
 @media (min-width:768px) {
-    .main .far {
+    .main .far, .fas {
         display: block;
         font-size: 7rem;
         margin-bottom: 6rem;
@@ -78,14 +78,14 @@ h2, h4 {
 }
 
 @media (min-width:992px) {
-    .main .far {
+    .main .far, .fas {
         margin-bottom: 4rem;
     }
 }
 
 .btn {
     color: #ffffff;
-    width: 90%;
+    width: 100%;
 }
 
 .btn:hover {
@@ -177,6 +177,10 @@ footer {
 }
 
 /*--------------------------------------------------Modal*/
+
+.modal-body h2 {
+    color: #5C2751;
+}
 
 #name, #email, #message {
     margin: 0.4rem;
