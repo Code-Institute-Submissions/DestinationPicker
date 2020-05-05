@@ -50,6 +50,12 @@ header {
     margin: 1rem 0;
 }
 
+@media (min-width: 768px) {
+    .row {
+        margin: 2rem 0;
+    }
+}
+
 h1, h2 {
     margin-bottom: 1.7rem;
 }
@@ -164,6 +170,12 @@ img {
     }
 }
 
+@media (min-width:992px) {
+    img {
+        width: 100%;
+    }
+}
+
 ul {
     font-size: 1rem;
     list-style: none;
@@ -173,6 +185,13 @@ ul {
 @media (min-width:768px) {
     ul {
         font-size: 1.25rem;
+    }
+}
+
+@media (min-width:992px) {
+    ul {
+        padding: 5rem 0;
+        line-height: 2.5rem;
     }
 }
 
