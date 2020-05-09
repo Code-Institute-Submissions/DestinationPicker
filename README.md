@@ -107,6 +107,7 @@ I added this problem in the Bugs section
 The following bugs where found during testing:
 <br>
 1. The background of the envelope icon appeared to be white on some phones (fixed)
+2. The sendMail function appeared to be broken (fixed)
 ## Deployment
 This project was created using Github. 
 From there I used Gitpod.io to write my code.
