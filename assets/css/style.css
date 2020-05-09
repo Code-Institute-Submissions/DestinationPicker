@@ -217,6 +217,11 @@ footer {
     }
 }
 
+.fa-envelope {
+    background: #5C2751;
+    color: #F0AD4E;
+}
+
 /*--------------------------------------------------Modal*/
 
 .modal-body h2 {
