@@ -102,4 +102,40 @@ This would be the result with the highest score.
         6. When you re-open the modal the fields have been made empty
 Besides these manual tests by myself I've asked friends and family to try the quiz.
 This pointed out that the envelope icon had a white background on some phones.
-I will get in to this more in the bugs section.
+I added this problem in the Bugs section
+### Bugs
+The following bugs where found during testing:
+<br>
+1. The background of the envelope icon appeared to be white on some phones (fixed)
+## Deployment
+This project was created using Github. 
+From there I used Gitpod.io to write my code.
+Then I used commits to git followed by pushes to my GitHub repository.
+As my final step I've deployed this project to GitHub Pages from the GitHub repository using the following steps:
+
+1. Login to my GitHub account
+2. Go to the Destination Picker repository
+3. Go to the settings-tab
+4. Scroll down to the GitHub Pages section
+5. At the GitHub Pages section, choose "master branch" as your source
+6. The page will now automatically refresh and the repository deployed
+7. You can now scroll down again to the GitHub Pages section to retrieve the link for the website
+
+To run this project locally the following steps should be followed:
+
+1. You can follow [this link](https://github.com/FrancesVugts/DestinationPicker) to the Destination Picker repository
+2. Click on the green colored button "Clone or download"
+3. Copy the URL that pops up
+4. In your local IDE open Git Bash
+5. The next step is to change your current working directory to the location you want for your cloned directory
+6. Now type in "git clone" and paste the copied URL
+7. When you press Enter your local clone will be created
+## Credits
+### Content
+- All the content for this page was written by myself
+### Media
+- Most of the pictures I've used for this website where made by myself
+- The Belgium picture was made by Yeo Khee (Unsplash)
+- The Italy picture was made by Matt Twyman (Unsplash)
+### Acknowledgements
+- My mentor Gerard McBride helped me with some harder coding parts
