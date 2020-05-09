@@ -47,3 +47,52 @@ I have used the following technologys for this project:
 * [Google Fonts](https://fonts.google.com/), to choose and combine my fonts
 * [Coolors](https://coolors.co/), to choose my and combine my colors
 * [EmailJS](https://www.emailjs.com/), to let the user be able to contact me
+## Manual testing
+All the tests below where done manually.
+The tests where done in Chrome, Internet Explorer and Firefox.
+<br>
+1. Use of the start page:
+    * Mobile:
+        1. No icon will be visible to make beter use of the space available
+    * Tablet:
+        1. An icon will be visible to give it a nicer look
+        2. The icon will have a more margin then on bigger screens to fill the page out nicely
+    * Desktop:
+        1. An icon will be visible to give it a nicer look 
+        2. The start button will be smaller then on smaller screens to give it a nicer look
+2. Use of the question page:
+    * Mobile:
+        1. You will see a question with 2, 3 or 4 posible answers depending on the question
+        2. The answers will be shown underneath one another
+        3. When you click on one of the answers, the next question will be shown
+    * Tablet:
+        1. You will see an icon above the question
+        2. Then you will see a question with 2, 3 or 4 posible answers depending on the question
+        3. The answers will be shown underneath one another
+        4. When you click on one of the answers, the next question will be shown
+    * Desktop:
+        1. You will see an icon above the question
+        2. Then you will see a question with 2, 3 or 4 posible answers depending on the question
+        3. The answers will be shown underneath one another, but in pares of two
+        4. When you hover over an answer, this answer will change color
+        4. When you click on one of the answers, the next question will be shown
+3. Use of the results page:
+    * Mobile and tablet:
+        1. On the top of the page u will see what country is recommended based on your answers
+        2. Underneath you see a picture representive for that country
+        3. On the bottem of the page u will see the traits for the recommended country
+    * Desktop:
+        1. On the top of the page u will see what country is recommended based on your answers
+        2. Underneath you see a photo representive for that country
+        3. Next to that photo u will see the traits for the recommended country
+        
+4. The header and the footer:
+
+5. When you want to get in touch with the owner of the website:
+    * Mobile, tablet and desktop:
+        1. There is an envelope icon shown inside of the footer
+        2. When you click on the envelope a modal with a contact form shows up
+        3. The fields have placeholder text so you know what you have to fill in
+        4. U have to fill in all the fields in the form to be able to send it
+        5. When the form is send, the modal will disappear and a pop up with the text "Thank you for your message!" shows up
+        6. When you re-open the modal the fields have been made empty
