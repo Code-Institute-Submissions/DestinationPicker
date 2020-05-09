@@ -33,7 +33,7 @@ When spending more time on this project, I would like to include the following f
 * More countries that can be shown as a result
 * A database to store those countries
 * Being able to go back to a question to change the given answer
-## Technologys used
+## Technologies used
 I have used the following technologys for this project:
 * HTML, because it is the standard markup language for Web Pages
 * CSS, to style the website
