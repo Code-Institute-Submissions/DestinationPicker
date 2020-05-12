@@ -9,12 +9,14 @@ var destinations = [belgium, iceland, italy, finland, madagascar, namibia];
 // With this function I compare the answer on the clicked button with the attributes of each country
 // When there is a match, that country will get a point
 // Used .text() to get the text from the clicked button as suggested by ThiefMaster on the following page: https://stackoverflow.com/questions/10351658/javascript-get-custom-buttons-text-value 
-$(".btn").click(count);
+$(".btn").click(function() {
+    count($(this).text());
+});
 
-function count() {
+function count(a) {
     for (var i in destinations) {
         for (var j in destinations[i].attributes) {
-            if ($(this).text() == destinations[i].attributes[j]) {
+            if (a == destinations[i].attributes[j]) {
                 destinations[i].score ++;
             }
         }

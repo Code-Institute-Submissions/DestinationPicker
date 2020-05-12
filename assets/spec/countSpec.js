@@ -1,5 +1,7 @@
 describe("count function", function() {
     it("it should be 1", function() {
-        expect(count("€0-750")).toBe(belgium.score == 1);
+        let a = "€0-750";
+        count(a);
+        expect(belgium.score).toBe(1);
     });
 });
