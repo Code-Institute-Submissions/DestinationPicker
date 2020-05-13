@@ -11,7 +11,6 @@ var destinations = [belgium, iceland, italy, finland, madagascar, namibia];
 // Used .text() to get the text from the clicked button as suggested by ThiefMaster on the following page: https://stackoverflow.com/questions/10351658/javascript-get-custom-buttons-text-value 
 $(".btn").click(function() {
     count($(this).text());
-    console.log(belgium.score, iceland.score, italy.score, finland.score, madagascar.score, namibia.score);
 });
 
 function count(a) {
