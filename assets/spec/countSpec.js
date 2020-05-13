@@ -9,68 +9,71 @@ describe("count function", function() {
         namibia.score = 0;
     });
     
-    describe("answer €0-750", function() {
+    describe("answers €0-750, Nature, Winter, Short, Normal, Car and A little", function() {
         
-        it("Belgiums score should be 1", function() {
+        it("Belgiums score should be 4", function() {
             count("€0-750");
-            expect(belgium.score).toBe(1);
+            count("Nature");
+            count("Winter");
+            count("Short");
+            count("Normal");
+            count("Car");
+            count("A little");
+            expect(belgium.score).toBe(4);
         });
 
-        it("Iceland score should be 0", function() {
+        it("Iceland score should be 3", function() {
             count("€0-750");
-            expect(iceland.score).toBe(0);
+            count("Nature");
+            count("Winter");
+            count("Short");
+            count("Normal");
+            count("Car");
+            count("A little");
+            expect(iceland.score).toBe(3);
         });
 
-        it("Italy score should be 0", function() {
+        it("Italy score should be 2", function() {
             count("€0-750");
-            expect(italy.score).toBe(0);
+            count("Nature");
+            count("Winter");
+            count("Short");
+            count("Normal");
+            count("Car");
+            count("A little");
+            expect(italy.score).toBe(2);
         });
 
-        it("Finland score should be 0", function() {
+        it("Finland score should be 3", function() {
             count("€0-750");
-            expect(finland.score).toBe(0);
-        });
-
-        it("Madagascar score should be 0", function() {
-            count("€0-750");
-            expect(madagascar.score).toBe(0);
-        });
-
-        it("Namibia score should be 0", function() {
-            count("€0-750");
-            expect(namibia.score).toBe(0);
-        });
-    });
-
-    describe("answer hot", function() {
-        
-        it("Belgiums score should be 0", function() {
-            count("Hot");
-            expect(belgium.score).toBe(0);
-        });
-
-        it("Iceland score should be 0", function() {
-            count("Hot");
-            expect(iceland.score).toBe(0);
-        });
-
-        it("Italy score should be 1", function() {
-            count("Hot");
-            expect(italy.score).toBe(1);
-        });
-
-        it("Finland score should be 0", function() {
-            count("Hot");
-            expect(finland.score).toBe(0);
+            count("Nature");
+            count("Winter");
+            count("Short");
+            count("Normal");
+            count("Car");
+            count("A little");
+            expect(finland.score).toBe(3);
         });
 
         it("Madagascar score should be 1", function() {
-            count("Hot");
+            count("€0-750");
+            count("Nature");
+            count("Winter");
+            count("Short");
+            count("Normal");
+            count("Car");
+            count("A little");
             expect(madagascar.score).toBe(1);
         });
 
         it("Namibia score should be 1", function() {
-            count("Hot");
+            count("€0-750");
+            count("Nature");
+            count("Winter");
+            count("Short");
+            count("Normal");
+            count("Car");
+            count("A little");
             expect(namibia.score).toBe(1);
         });
     });
