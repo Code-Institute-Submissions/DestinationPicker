@@ -222,6 +222,10 @@ footer {
     color: #F0AD4E;
 }
 
+.fa-envelope:hover {
+    color: #ffffff;
+}
+
 /*--------------------------------------------------Modal*/
 
 .modal-body h2 {
