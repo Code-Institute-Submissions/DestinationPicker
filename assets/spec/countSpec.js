@@ -148,3 +148,44 @@ describe("count function", function() {
     });
 
 });
+
+describe("winner function", function() {
+
+    afterEach(function() {
+        belgium.score = 0;
+        iceland.score = 0;
+        italy.score = 0;
+        finland.score = 0;
+        madagascar.score = 0;
+        namibia.score = 0;
+        highestScore = 0;
+        firstChoice = null;
+    });
+
+    describe("highest score should lead to the being the firstChoice country", function() {
+        it("finland should be the firstChoice country", function() {
+            belgium.score = 4;
+            iceland.score = 5;
+            italy.score = 6;
+            finland.score = 7;
+            madagascar.score = 3;
+            namibia.score = 2;
+            winner();
+            expect(firstChoice).toBe("finland");
+        });
+    });
+
+    describe("if two countries have the highest score, the first one in the alphabet should become the firstChoice country", function() {
+        it("italy should be the firstChoice country", function() {
+            belgium.score = 5;
+            iceland.score = 5;
+            italy.score = 7;
+            finland.score = 7;
+            madagascar.score = 4;
+            namibia.score = 4;
+            winner();
+            expect(firstChoice).toBe("italy");
+        });
+    });
+
+});
