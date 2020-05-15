@@ -39,6 +39,7 @@ I have used the following technologys for this project:
 * CSS, to style the website
 * Javascript, to make the website interactive
 * JSON, for my variables
+* Jasmin, for testing my JavaScript functions
 * [jQuery](https://jquery.com/), to simplify DOM manipulation 
 * [Gitpod](https://www.gitpod.io/), for my development environment
 * [Github](https://github.com/), for version control
@@ -48,11 +49,7 @@ I have used the following technologys for this project:
 * [Coolors](https://coolors.co/), to choose my and combine my colors
 * [EmailJS](https://www.emailjs.com/), to let the user be able to contact me
 ## Manual testing
-All the tests below where done manually by myself.
-The tests where done in Chrome, Internet Explorer and Firefox.
-I've made use of console.log to see if the right result shows up.
-This would be the result with the highest score.
-<br>
+All the manual tests where done by myself manually in Chrome, Internet Explorer and Firefox.
 1. Use of the start page:
     * Mobile:
         1. No icon will be visible to make beter use of the space available
@@ -92,22 +89,39 @@ This would be the result with the highest score.
         1. On the top of the page there is a header with the logo/website name
         2. The header is sticky, so when you would scroll down the header will still be visible
         3. On the bottom of the page there is a footer with the copyright
+        4. The color of the envelope icon will change to white when hovering over it, to make it clear you can click on this icon
 5. When you want to get in touch with the owner of the website:
     * Mobile, tablet and desktop:
         1. There is an envelope icon shown inside of the footer
-        2. When you click on the envelope a modal with a contact form shows up
-        3. The fields have placeholder text so you know what you have to fill in
-        4. U have to fill in all the fields in the form to be able to send it
-        5. When the form is send, the modal will disappear and a pop up with the text "Thank you for your message!" shows up
-        6. When you re-open the modal the fields have been made empty
-Besides these manual tests by myself I've asked friends and family to try the quiz.
+        2. The color of the envelope icon will change to white when hovering over it, to make it clear you can click on this icon
+        3. When you click on the envelope a modal with a contact form shows up
+        4. The fields have placeholder text so you know what you have to fill in
+        5. U have to fill in all the fields in the form to be able to send it
+        6. When the form is send, the modal will disappear and a pop up with the text "Thank you for your message!" shows up
+        7. When you re-open the modal the fields have been made empty
+        8. When you click on the page outside of the modal, the modal will also disappear
+I've made use of console.log to see if the right result shows up.
+After making sure my points where counted correct and the result with the highest score is shown at the end of the quiz, I've got rid of the console.log.
+Besides these manual tests that I've done myself, I've asked friends and family to try the quiz.
 This pointed out that the envelope icon had a white background on some phones.
-I added this problem in the Bugs section
+I fixed this problem and added it in the Bugs section.
+## Automatic testing
+Firstly I've used online validators to check my code. 
+The validators that I've used are:
+1. [HTML Validator](https://validator.w3.org/#validate_by_input)
+2. [CSS Validator](https://jigsaw.w3.org/css-validator/)
+3. [JS Hint](https://jshint.com/)
+The HTML Validator let me know that I had an issue with giving the envelope icon a type of button. 
+I fixed this problem and added it in the Bugs section.
+
+Secondly I've used Jasmine to run some automatic tests on the most important JavaScript functions. 
+This showed me that my functions are working like they are supposed to.
+I didn't find any bugs here.
 ### Bugs
 The following bugs where found during testing:
-<br>
 1. The background of the envelope icon appeared to be white on some phones (fixed)
 2. The sendMail function appeared to be broken (fixed)
+3. The HTML validator let me know I could not use a type of button on my envelope icon (fixed)
 ## Deployment
 This project was created using Github. 
 From there I used Gitpod.io to write my code.
