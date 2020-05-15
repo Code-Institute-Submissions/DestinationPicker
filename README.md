@@ -10,9 +10,10 @@ When the answer is provided, I want to know why the presented destination suits 
 As a website user, I want to be able to contact the owner of the website, so that I can ask any questions I have regarding the website.
 ### Design
 You can find the wireframes that I used for this project [here](https://ibb.co/jLYNtsg).
-<br>
 It provides insight in how I wanted my question and result pages to look on a desktop, mobile and tablet.
 The most important thing for me was to have a clean and simple look.
+This is why I didn't add any extra navigation.
+The page navigates itself by answering the questions.
 It had to be a fun, quick and easy quiz!
 ## Features
 In this project I added the following features:
