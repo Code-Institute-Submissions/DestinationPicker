@@ -115,6 +115,8 @@ The HTML Validator let me know that I had an issue with giving the envelope icon
 I fixed this problem and added it in the Bugs section.
 
 Secondly I've used Jasmine to run some automatic tests on the most important JavaScript functions. 
+The count function was tested, which adds a point to the score of each country that corresponds with the chosen answer.
+Also the winner function was tested, which determines the country with the highest score.
 This showed me that my functions are working like they are supposed to.
 I didn't find any bugs here.
 ### Bugs
